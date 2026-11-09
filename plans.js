@@ -1,0 +1,35 @@
+/* Be Healthy — weekly training plans.
+   Each exercise is referenced by its English name from exercises.js. */
+const PLANS = {
+  beginner: [
+    { title: { en: "Full Body A", ar: "الجسم كامل أ" }, time: 45,
+      list: ["Goblet Squat", "Machine Chest Press", "Lat Pulldown", "Seated Dumbbell Press", "Glute Bridge", "Plank"] },
+    { title: { en: "Cardio & Core", ar: "كارديو وبطن" }, time: 35,
+      list: ["Incline Treadmill Walk", "Dead Bug", "Bird Dog", "Crunch"] },
+    { title: { en: "Full Body B", ar: "الجسم كامل ب" }, time: 50,
+      list: ["Leg Press", "Incline Push-up", "Seated Cable Row", "Dumbbell Romanian Deadlift", "Lateral Raise", "Dumbbell Biceps Curl", "Triceps Pushdown"] },
+    { title: { en: "Mobility & Recovery", ar: "مرونة واستشفاء" }, time: 20,
+      list: ["Cat-Cow", "Child's Pose", "Hip Flexor Stretch", "Standing Hamstring Stretch", "Doorway Chest Stretch"] },
+    { title: { en: "Full Body C", ar: "الجسم كامل ج" }, time: 50,
+      list: ["Walking Lunge", "Dumbbell Bench Press", "One-Arm Dumbbell Row", "Face Pull", "Lying Leg Curl", "Standing Calf Raise", "Bicycle Crunch"] },
+    { title: { en: "Fun Cardio", ar: "كارديو ممتع" }, time: 30,
+      list: ["Stationary Bike", "Jumping Jacks", "Shadow Boxing", "Knee Side Plank"] },
+    { title: { en: "Rest Day", ar: "يوم راحة" }, time: 0, list: [] },
+  ],
+  advanced: [
+    { title: { en: "Push — Strength", ar: "دفع — قوة" }, time: 70,
+      list: ["Barbell Bench Press", "Incline Dumbbell Press", "Overhead Barbell Press", "Weighted Chest Dip", "Cable Lateral Raise", "Skull Crusher"] },
+    { title: { en: "Pull — Strength", ar: "سحب — قوة" }, time: 70,
+      list: ["Conventional Deadlift", "Weighted Pull-up", "Barbell Bent-Over Row", "Face Pull", "Barbell Curl", "Hanging Leg Raise"] },
+    { title: { en: "Legs — Strength", ar: "أرجل — قوة" }, time: 75,
+      list: ["Barbell Back Squat", "Barbell Romanian Deadlift", "Bulgarian Split Squat", "Leg Extension", "Nordic Hamstring Curl", "Weighted Single-Leg Calf Raise", "Ab Wheel Rollout"] },
+    { title: { en: "HIIT & Core", ar: "تمارين عالية الشدة وبطن" }, time: 40,
+      list: ["Sprint Intervals", "Burpee", "Kettlebell Swing", "Toes-to-Bar", "Hollow Body Hold"] },
+    { title: { en: "Upper — Power", ar: "الجزء العلوي — قدرة" }, time: 65,
+      list: ["Push Press", "Pendlay Row", "Close-Grip Bench Press", "Chin-up", "Arnold Press", "Incline Dumbbell Curl", "Dragon Flag"] },
+    { title: { en: "Lower & Conditioning", ar: "الجزء السفلي ولياقة" }, time: 65,
+      list: ["Front Squat", "Barbell Hip Thrust", "Barbell Walking Lunge", "Box Jump", "Farmer's Carry", "Sled Push"] },
+    { title: { en: "Active Recovery", ar: "استشفاء نشط" }, time: 30,
+      list: ["Easy Rowing", "Thoracic Rotation", "Hip Flexor Stretch", "Cat-Cow"] },
+  ],
+};
